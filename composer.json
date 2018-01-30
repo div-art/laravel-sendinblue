@@ -1,0 +1,30 @@
+{
+    "name": "div-art/laravel-sendinblue",
+    "description": "Laravel 5.5 mail driver",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "6.*",
+        "illuminate/support": "^5.5"
+    },
+    "license": "MIT",
+    "keywords": ["sendinblue", "mail", "div-art", "laravel"],
+    "authors": [
+        {
+            "name": "Div-Art",
+            "email": "info@div-art.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DivArt\\SendInBlue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DivArt\\SendInBlue\\SendInBlueServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
