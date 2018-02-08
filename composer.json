@@ -4,7 +4,6 @@
     "require": {
         "php": ">=7.0",
         "guzzlehttp/guzzle": "6.*",
-        "illuminate/support": "^5.5"
     },
     "license": "MIT",
     "keywords": ["sendinblue", "mail", "div-art", "laravel"],
